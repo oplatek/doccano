@@ -6,11 +6,11 @@
   >
     <v-row no-gutters>
       <v-btn-toggle>
-        <button-review
-          v-if="showApproveButton"
-          :is-reviewd="isReviewd"
-          @click:review="$emit('click:review')"
-        />
+<!--        <button-review-->
+<!--          v-if="showApproveButton"-->
+<!--          :is-reviewd="isReviewd"-->
+<!--          @click:review="$emit('click:review')"-->
+<!--        />-->
 
         <button-filter
           :value="filterOption"
@@ -27,31 +27,31 @@
           />
         </v-dialog>
 
-        <button-comment
-          @click:comment="dialogComment=true"
-        />
-        <v-dialog v-model="dialogComment">
-          <form-comment
-            :doc-id="docId"
-            @click:cancel="dialogComment=false"
-          />
-        </v-dialog>
+<!--        <button-comment-->
+<!--          @click:comment="dialogComment=true"-->
+<!--        />-->
+<!--        <v-dialog v-model="dialogComment">-->
+<!--          <form-comment-->
+<!--            :doc-id="docId"-->
+<!--            @click:cancel="dialogComment=false"-->
+<!--          />-->
+<!--        </v-dialog>-->
 
-        <button-auto-labeling
-          @click:auto="dialogAutoLabeling=true"
-        />
-        <v-dialog v-model="dialogAutoLabeling">
-          <form-auto-labeling
-            :is-enabled="enableAutoLabeling"
-            :error-message="errorMessage"
-            @click:cancel="dialogAutoLabeling=false"
-            @input="updateAutoLabeling"
-          />
-        </v-dialog>
+<!--        <button-auto-labeling-->
+<!--          @click:auto="dialogAutoLabeling=true"-->
+<!--        />-->
+<!--        <v-dialog v-model="dialogAutoLabeling">-->
+<!--          <form-auto-labeling-->
+<!--            :is-enabled="enableAutoLabeling"-->
+<!--            :error-message="errorMessage"-->
+<!--            @click:cancel="dialogAutoLabeling=false"-->
+<!--            @input="updateAutoLabeling"-->
+<!--          />-->
+<!--        </v-dialog>-->
 
-        <button-clear
-          @click:clear="dialogClear=true"
-        />
+<!--        <button-clear-->
+<!--          @click:clear="dialogClear=true"-->
+<!--        />-->
         <v-dialog v-model="dialogClear">
           <form-clear-label
             @click:ok="$emit('click:clear-label');dialogClear=false"
@@ -90,16 +90,16 @@ import FormGuideline from './forms/FormGuideline.vue'
 
 export default Vue.extend({
   components: {
-    ButtonAutoLabeling,
-    ButtonClear,
-    ButtonComment,
+    // ButtonAutoLabeling,
+    // ButtonClear,
+    // ButtonComment,
     ButtonFilter,
     ButtonGuideline,
     ButtonPagination,
-    ButtonReview,
-    FormAutoLabeling,
+    // ButtonReview,
+    // FormAutoLabeling,
     FormClearLabel,
-    FormComment,
+    // FormComment,
     FormGuideline
   },
 

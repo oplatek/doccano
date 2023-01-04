@@ -57,7 +57,7 @@ VOLUME /data
 ENV DATABASE_URL="sqlite:////data/doccano.db"
 
 ENV DEBUG="True"
-ENV SECRET_KEY="change-me-in-production"
+ENV SECRET_KEY="%l(p3r5%nwsdw52)0089nspzb@2hq$es1#dikjkj_-pft6+epfa*lh$"
 ENV PORT="8000"
 ENV WORKERS="2"
 ENV CELERY_WORKERS="2"

@@ -28,6 +28,7 @@ fi
 echo "Starting django"
 # gunicorn --bind="0.0.0.0:${PORT:-8000}" --workers="${WORKERS:-4}" app.wsgi --timeout 300
 gunicorn --bind="0.0.0.0:${PORT:-8000}" --workers="${WORKERS:-1}" app.wsgi --timeout=300 &
+# gunicorn --bind="127.0.0.1:8090" --workers="${WORKERS:-1}" app.wsgi --timeout=300 &
 gunicorn_pid="$!"
 
 celery --app=app worker --loglevel=INFO --concurrency="${CELERY_WORKERS:-1}" &
