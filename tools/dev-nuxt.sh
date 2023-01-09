@@ -7,7 +7,8 @@ app="${root}/frontend"
 
 (
   cd "${app}"
- 
+
+  git config --global url."https://".insteadOf git://
   if [[ ! -d node_modules/.bin ]]; then
     echo "Installing dependencies"
     yarn install
