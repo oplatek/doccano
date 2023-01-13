@@ -1,0 +1,80 @@
+[
+    {
+        "text": "bad-translation",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    },
+    {
+        "text": "good-translation",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    },
+    {
+        "text": "OT-unsupported-information",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    },
+    {
+        "text": "OT-supported-information",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    },
+    {
+        "text": "OT-fluency",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    },
+    {
+        "text": "UT-important-information",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    },
+    {
+        "text": "UT-redundant-information",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    },
+    {
+        "text": "UT-fluency",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    },
+    {
+        "text": "other-error-accuracy",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    },
+    {
+        "text": "other-error-fluency",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    },
+    {
+        "text": "syntactic-difference",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    },
+    {
+        "text": "source-error",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    },
+    {
+        "text": "unclear",
+        "suffix_key": null,
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+    }
+]
