@@ -7,6 +7,8 @@
   >
     <v-chip
       v-for="item in labels"
+      :id="'label-' + item.text"
+      :ref="'label-' + item.text"
       :key="item.id"
       :color="item.backgroundColor"
       filter
